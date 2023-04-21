@@ -14,14 +14,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/p1" />
+        app:srcCompat="@drawable/image_1" />
 
     <TextView
         android:id="@+id/tv_title_secondActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="pizza1"
+        android:text="place1"
         android:textSize="45sp"
         app:layout_constraintStart_toStartOf="@+id/img_second"
         app:layout_constraintTop_toBottomOf="@+id/img_second" />
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="35sp"
-        android:text="ingredients"
+        android:text="Information"
         app:layout_constraintStart_toStartOf="@+id/tv_title_secondActivity"
         app:layout_constraintTop_toBottomOf="@+id/tv_title_secondActivity" />
 </androidx.constraintlayout.widget.ConstraintLayout>
